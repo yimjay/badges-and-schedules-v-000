@@ -8,6 +8,12 @@ def batch_badge_creator(names)
   badge_names
 end
 
+# def batch_badge_creator(attendees)
+#   attendees.map do |attendee|
+#     "Hello, my name is #{attendee}."
+#   end
+# end
+
 def assign_rooms(names)
   room_assignments = []
   names.each_with_index do |name, index|
